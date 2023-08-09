@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Library</h1>
+    </header>
+    <main>
+      <button class="addButton">+</button>
+      <div class="displayBooks"></div>
+
+      <div id="bookModal" class="modal">
+        <div class="modal-content">
+          <input type="text" id="modalTitle" placeholder="Title" />
+          <input type="text" id="modalAuthor" placeholder="Author" />
+          <input type="text" id="modalPage" placeholder="Page Count" />
+          <input type="checkbox" id="modalCheck" name="read" />
+          <label for="read">Read?</label>
+          <button onclick="submitBook()">Add Book</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Library Project</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
