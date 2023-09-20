@@ -24,7 +24,7 @@ main {
   flex-grow: 1;
 }
 
-.addButton {
+.add {
   background-color: #007bff;
   border: none;
   color: white;
@@ -81,12 +81,13 @@ footer {
   background-color: #fff;
   margin: 15% auto;
   padding: 20px;
+  height: 30%;
   width: 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
-.books {
+.book {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px 0;
